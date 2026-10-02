@@ -1,0 +1,24 @@
+{
+  "name": "Laben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter web build",
+    "dev": "pnpm --filter web dev",
+    "lint": "pnpm --filter web lint",
+    "test": "pnpm --filter web test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.8.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.8.1",
+  "type": "module"
+}
